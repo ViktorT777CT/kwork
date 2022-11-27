@@ -18,7 +18,7 @@
 				</div>
 			{% endif %}
 
-			{% if description is not empty %}
+			{% if description is not empty or categories %}
 				{% if soconfig.get_settings('category_more')  %}
 						<a class="btn btn-block btn-outlined btn-collapse" role="button" data-toggle="collapse" href="#collapseCategory">Описание категории</a>
 				{% endif %}
