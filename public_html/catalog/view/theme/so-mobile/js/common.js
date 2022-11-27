@@ -96,7 +96,9 @@ $(document).ready(function() {
 		}
 	});
 	
-	
+	$("#open_left_menu").on('click', function () {
+		$(".content-aside.left_column").toggleClass('active');
+	});
 
 	
 });
